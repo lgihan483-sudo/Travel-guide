@@ -10,7 +10,7 @@
 [![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)](https://developer.mozilla.org/en-US/docs/Web/CSS)
 [![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)](https://developer.mozilla.org/en-US/docs/Web/JavaScript)
 [![License: MIT](https://img.shields.io/badge/License-MIT-green.svg?style=for-the-badge)](LICENSE)
-[![GitHub Pages](https://img.shields.io/badge/Deploy-GitHub%20Pages-blue?style=for-the-badge&logo=github)](https://pages.github.com/)
+[![GitHub Pages](https://img.shields.io/badge/Deploy-GitHub%20Pages-blue?style=for-the-badge&logo=github)](https://lgihan483-sudo.github.io/Travel-guide/)
 
 [Explore Attractions](#-key-features) • [Directory Structure](#-project-structure) • [How to Run](#-getting-started) • [Deployment](#-github-pages-deployment) • [Author](#-author--credits)
 
@@ -84,8 +84,8 @@ ella-sl-travel-guide/
 
 ### 1. Clone the repository
 ```bash
-git clone https://github.com/<your-username>/<your-repo-name>.git
-cd <your-repo-name>
+git clone https://github.com/lgihan483-sudo/Travel-guide.git
+cd Travel-guide
 ```
 
 ### 2. View locally
@@ -107,14 +107,14 @@ To host this website live on the web for free using GitHub Pages:
 4. Click **Save**.
 5. Within 1–2 minutes, your website will be live at:
    ```text
-   https://<your-github-username>.github.io/<your-repo-name>/
+   https://lgihan483-sudo.github.io/Travel-guide/
    ```
 
 ---
 
 ## 👨‍💻 Author & Credits
 
-- **Designed & Developed by**: [Gihan Lahiru](https://github.com/)
+- **Designed & Developed by**: [Gihan Lahiru](https://github.com/lgihan483-sudo)
 - **Academic Affiliation**: [SLIATE](http://www.sliate.ac.lk/) — ATI Kurunegala
 
 ---
@@ -123,3 +123,4 @@ To host this website live on the web for free using GitHub Pages:
 
 This project is open-source and licensed under the [MIT License](LICENSE).
 Feel free to use and adapt it for learning or personal projects!
+
