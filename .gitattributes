@@ -1,0 +1,17 @@
+# Auto detect text files and perform LF normalization on checkout
+* text=auto
+
+# Explicitly declare text files
+*.html text
+*.css text
+*.js text
+*.json text
+*.md text
+
+# Explicitly declare binary files
+*.jpg binary
+*.jpeg binary
+*.png binary
+*.gif binary
+*.ico binary
+*.svg text

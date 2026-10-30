@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>City Guide - Ella</title>
+    <link rel="stylesheet" href="styles/css/reviews.css">
+</head>
+
+<body>
+
+    <div id="topbar" class="topbar">
+        <h1>Ella - SRI LANKA</h1>
+        <nav>
+            <a href="index.html">HOME</a>
+            <a href="places.html">PLACES</a>
+            <a href="heritage.html">HERITAGE</a>
+            <a href="gallery.html">GALLERY</a>
+            <a href="hotels.html">HOTELS</a>
+            <a href="contacts.html">HOTLINES</a>
+            <a href="reviews.html" class="active">REVIEWS</a>
+        </nav>
+    </div>
+
+    <div class="review-box">
+        <h2>Add Your Review</h2>
+
+        <div class="form-container">
+            <input type="text" id="name" placeholder="Your Name">
+
+            <select id="rating">
+                <option value="">Select Rating</option>
+                <option value="★★★★★">★★★★★</option>
+                <option value="★★★★">★★★★</option>
+                <option value="★★★">★★★</option>
+                <option value="★★">★★</option>
+                <option value="★">★</option>
+            </select>
+
+            <textarea id="comment" placeholder="Your message..." rows="4"></textarea>
+
+            <button onclick="addReview()">Submit</button>
+        </div>
+
+        <hr class="divider">
+
+        <h3>Latest Reviews</h3>
+        <div id="reviews"></div>
+    </div>
+
+    <footer class="footer">
+        <hr>
+        <p>Copyright @ <a href="http://www.sliate.ac.lk/">SLIATE</a> | ATI Kurunegala</p>
+        <p>Designed by <a href="#">Gihan Lahiru</a></p>
+    </footer>
+
+    <script>
+        window.onscroll = function () {
+            let topbar = document.getElementById('topbar');
+            if (window.pageYOffset > 50) {
+                topbar.style.padding = "10px";
+            } else {
+                topbar.style.padding = "20px";
+            }
+        };
+
+        function addReview() {
+            let name = document.getElementById("name").value;
+            let rating = document.getElementById("rating").value;
+            let comment = document.getElementById("comment").value;
+
+            if (!name || !rating || !comment) {
+                alert("Please fill all fields!");
+                return;
+            }
+
+            let reviewHTML = `
+                <div class="review-item">
+                    <strong class="user-name">${name}</strong> 
+                    <span class="user-rating">${rating}</span>
+                    <p class="user-comment">${comment}</p>
+                </div>`;
+
+            document.getElementById("reviews").insertAdjacentHTML('afterbegin', reviewHTML);
+
+            document.getElementById("name").value = "";
+            document.getElementById("rating").value = "";
+            document.getElementById("comment").value = "";
+        }
+    </script>
+
+</body>
+
+</html>

@@ -1,0 +1,148 @@
+body {
+    background-color: #b1c8da;
+    font-family: 'Fredoka', sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #2C3E50;
+}
+
+
+.topbar {
+    background: white;
+    padding: 20px;
+    text-align: center;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    transition: 0.3s;
+}
+
+.topbar h1 {
+    margin: 0;
+    color: #2C3E50;
+    font-size: 2.2rem;
+}
+
+.topbar nav {
+    margin-top: 10px;
+}
+
+.topbar nav a {
+    margin: 0 12px;
+    text-decoration: none;
+    color: #2C3E50;
+    font-size: 1rem;
+}
+
+.topbar nav a.active {
+    font-weight: bold;
+    border-bottom: 2px solid #2C3E50;
+}
+
+
+.content-container {
+    max-width: 1000px;
+    margin: 30px auto;
+    padding: 0 20px;
+}
+
+.hero-section {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+#main_img {
+    width: 100%;
+    border-radius: 20px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+}
+
+.info-card {
+    background: white;
+    padding: 40px;
+    border-radius: 15px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05);
+    margin-bottom: 30px;
+}
+
+.paragraph {
+    font-size: 1.2rem;
+    line-height: 1.8;
+    text-align: justify;
+}
+
+.section-title {
+    text-align: center;
+    font-size: 1.8rem;
+    margin-bottom: 25px;
+}
+
+.section-title.blue {
+    color: #76aae2;
+}
+
+
+.map-container {
+    border-radius: 15px;
+    overflow: hidden;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+
+.season-list {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+}
+
+.season-item {
+    background: #f9f9f9;
+    padding: 20px;
+    border-radius: 10px;
+    border-left: 4px solid #76aae2;
+}
+
+.season-item strong {
+    display: block;
+    margin-bottom: 5px;
+    color: #2C3E50;
+}
+
+.tips-list {
+    list-style: none;
+    padding: 0;
+}
+
+.tips-list li {
+    padding: 10px 0;
+    border-bottom: 1px solid #eee;
+    font-size: 1.1rem;
+}
+
+.tips-list li::before {
+    content: "📍 ";
+}
+
+.section-divider {
+    border: 0;
+    height: 1px;
+    background: #76aae2;
+    margin: 40px auto;
+    width: 50%;
+}
+
+.footer {
+    text-align: center;
+    padding: 40px 20px;
+}
+
+.footer hr {
+    width: 60%;
+    border: 0.5px solid #fff;
+}
+
+.footer a {
+    color: inherit;
+    text-decoration: none;
+}

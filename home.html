@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>City Guide - Ella Home</title>
+    <link rel="stylesheet" href="styles/css/home.css">
+</head>
+
+<body class="banner">
+
+    <div id="topbar" class="topbar">
+        <h1>Ella - SRI LANKA</h1>
+        <nav>
+            <a href="index.html" class="active">HOME</a>
+            <a href="places.html">PLACES</a>
+            <a href="heritage.html">HERITAGE</a>
+            <a href="gallery.html">GALLERY</a>
+            <a href="hotels.html">HOTELS</a>
+            <a href="contacts.html">HOTLINES</a>
+            <a href="reviews.html">REVIEWS</a>
+        </nav>
+    </div>
+
+    <div class="content-container">
+        <div class="hero-section">
+            <img id="main_img" src="styles/cc.jpg" alt="Ella Scenery">
+        </div>
+
+        <div class="info-card">
+            <p class="paragraph">
+                Ella is a beautiful hill town in Sri Lanka’s central highlands, surrounded by tea plantations,
+                misty mountains, and cool fresh air. It’s famous for Ella Rock, Little Adam’s Peak, and the Nine Arch
+                Bridge,
+                offering stunning views, hiking adventures, and unforgettable experiences.
+            </p>
+        </div>
+
+        <hr class="section-divider">
+
+        <div class="location-section">
+            <h2 class="section-title">LOCATION</h2>
+            <div class="map-container">
+                <iframe
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15843.1565578135!2d81.0416!3d6.8742!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3ae46593f6319881%3A0x6b406e987c90e0e9!2sElla!5e0!3m2!1sen!2slk!4v1700000000000"
+                    width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+            </div>
+        </div>
+
+        <hr class="section-divider">
+
+        <div class="info-card">
+            <h2 class="section-title blue">Best Time to Visit Ella</h2>
+            <div class="season-list">
+                <div class="season-item">
+                    <strong>January – March (Best)</strong>
+                    <p>Driest and most pleasant. Ideal for hiking and clear viewpoints.</p>
+                </div>
+                <div class="season-item">
+                    <strong>April – May (Very Good)</strong>
+                    <p>Warm and largely dry with fewer crowds.</p>
+                </div>
+                <div class="season-item">
+                    <strong>June – September (Mixed)</strong>
+                    <p>Warmer days with occasional showers. Still a great time to visit.</p>
+                </div>
+                <div class="season-item">
+                    <strong>October – December (Wettest)</strong>
+                    <p>Heavier rains. Waterfalls are at their fullest and most beautiful.</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="info-card tips-box">
+            <h2 class="section-title blue">Quick Tips</h2>
+            <ul class="tips-list">
+                <li>Pack layers: warm evenings at higher elevation.</li>
+                <li>Bring a light rain jacket if you visit outside Jan–Mar.</li>
+                <li>Check local train times for Nine Arch Bridge photo shots.</li>
+            </ul>
+        </div>
+    </div>
+
+    <footer class="footer">
+        <hr>
+        <p>Copyright @ <a href="http://www.sliate.ac.lk/">SLIATE</a> | ATI Kurunegala</p>
+        <p>Designed by <a href="#">Gihan Lahiru</a></p>
+    </footer>
+
+    <script>
+        window.onscroll = function () {
+            let topbar = document.getElementById('topbar');
+            if (window.pageYOffset > 50) {
+                topbar.style.padding = "10px";
+            } else {
+                topbar.style.padding = "20px";
+            }
+        };
+    </script>
+</body>
+
+</html>

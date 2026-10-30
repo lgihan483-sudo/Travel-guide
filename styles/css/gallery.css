@@ -1,0 +1,118 @@
+body {
+    background-color: #b1c8da;
+    font-family: 'Fredoka', sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #2C3E50;
+}
+
+
+.topbar {
+    background: white;
+    padding: 20px;
+    text-align: center;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    transition: 0.3s;
+}
+
+.topbar h1 {
+    margin: 0;
+    color: #2C3E50;
+    font-size: 2.2rem;
+}
+
+.topbar nav {
+    margin-top: 10px;
+}
+
+.topbar nav a {
+    margin: 0 12px;
+    text-decoration: none;
+    color: #2C3E50;
+    font-size: 1rem;
+    transition: 0.3s;
+}
+
+.topbar nav a.active {
+    font-weight: bold;
+    border-bottom: 2px solid #2C3E50;
+}
+
+
+.content-container {
+    max-width: 1200px;
+    margin: 30px auto;
+    padding: 20px;
+}
+
+.intro-text {
+    font-size: 1.8rem;
+    text-align: center;
+    margin-bottom: 30px;
+    color: #2C3E50;
+}
+
+
+.gallery-grid {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    margin-bottom: 40px;
+}
+
+.galleryimg {
+    transition: transform 0.3s ease;
+}
+
+.galleryimg img {
+    width: 260px;
+    height: 320px;
+    object-fit: cover;
+
+    border-radius: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.galleryimg:hover {
+    transform: scale(1.05);
+}
+
+
+.quote-box {
+    text-align: center;
+    margin: 40px 0;
+}
+
+.quote-box p {
+    font-size: 1.2rem;
+    padding: 10px 10%;
+    line-height: 1.5;
+}
+
+.quote-box hr {
+    width: 80%;
+    border: 0;
+    border-top: 1px solid #76aae2;
+}
+
+
+.footer {
+    text-align: center;
+    padding: 40px 20px;
+    font-size: 0.9rem;
+}
+
+.footer hr {
+    width: 60%;
+    border: 0.5px solid #fff;
+    margin-bottom: 10px;
+}
+
+.footer a {
+    color: inherit;
+    text-decoration: none;
+}

@@ -1,0 +1,116 @@
+body {
+    background-color: #b1c8da;
+    font-family: 'Fredoka', sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #2C3E50;
+}
+
+
+.topbar {
+    background: white;
+    padding: 20px;
+    text-align: center;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    transition: 0.3s;
+}
+
+.topbar h1 {
+    margin: 0;
+    color: #2C3E50;
+    font-size: 2.5rem;
+}
+
+.topbar nav {
+    margin-top: 10px;
+}
+
+.topbar nav a {
+    margin: 0 15px;
+    text-decoration: none;
+    color: #2C3E50;
+    font-size: 1.1rem;
+    transition: 0.3s;
+}
+
+.topbar nav a.active {
+    font-weight: bold;
+    border-bottom: 2px solid #2C3E50;
+}
+
+
+.content-container {
+    max-width: 900px;
+    margin: 40px auto;
+    background: white;
+    padding: 40px;
+    border-radius: 15px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+}
+
+.main-title {
+    text-align: center;
+    font-size: 2rem;
+    margin-bottom: 20px;
+}
+
+.description {
+    text-align: center;
+    line-height: 1.6;
+    font-size: 1.1rem;
+    margin-bottom: 40px;
+    color: #555;
+}
+
+
+.contact-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+}
+
+.contact-table thead th {
+    background-color: #76aae2;
+    color: white;
+    text-align: left;
+    padding: 15px;
+    font-size: 1.3rem;
+    border-radius: 5px;
+}
+
+.contact-table td {
+    padding: 12px 15px;
+    border-bottom: 1px solid #eee;
+    font-size: 1.1rem;
+}
+
+.contact-table td a {
+    color: #007BFF;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+.contact-table tr:hover {
+    background-color: #f9f9f9;
+}
+
+
+.footer {
+    text-align: center;
+    padding: 40px 20px;
+    font-size: 0.9rem;
+}
+
+.footer hr {
+    width: 60%;
+    border: 0.5px solid #fff;
+    margin-bottom: 15px;
+}
+
+.footer a {
+    color: inherit;
+    text-decoration: none;
+}

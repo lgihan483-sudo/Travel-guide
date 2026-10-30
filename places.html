@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>City Guide - Places to Visit</title>
+    <link rel="stylesheet" href="styles/css/places.css">
+</head>
+
+<body class="banner">
+
+    <div id="topbar" class="topbar">
+        <h1>Ella - SRI LANKA</h1>
+        <nav>
+            <a href="index.html">HOME</a>
+            <a href="places.html" class="active">PLACES</a>
+            <a href="heritage.html">HERITAGE</a>
+            <a href="gallery.html">GALLERY</a>
+            <a href="hotels.html">HOTELS</a>
+            <a href="contacts.html">HOTLINES</a>
+            <a href="reviews.html">REVIEWS</a>
+        </nav>
+    </div>
+
+    <div class="content-container">
+
+        <div class="place-row" id="ho">
+            <div class="place-img">
+                <img src="styles/cave.jpg" alt="Ravana Cave">
+            </div>
+            <div class="place-text">
+                <h3>Ravana Cave – Ella</h3>
+                <p>The Ravana Cave, about 2 km from Ella, is believed to have been used by King Ravana to hide Princess
+                    Sita. Located 1,370 meters above sea level, it’s a small but historic site with ancient tunnels and
+                    archaeological findings dating back to 20,000 BC.</p>
+            </div>
+        </div>
+
+        <div class="place-row reverse" id="ho">
+            <div class="place-img">
+                <img src="styles/bb.jpg" alt="Nine Arch Bridge">
+            </div>
+            <div class="place-text">
+                <h3>Nine Arch Bridge – Ella</h3>
+                <p>The Nine Arch Bridge, or “Bridge in the Sky,” is a 20th-century marvel between Ella and Demodara.
+                    Spanning 300 feet and nearly 100 feet high, it connects two hills on the Badulla–Colombo railway.
+                    It’s a popular spot for photographers—especially when a train crosses.</p>
+            </div>
+        </div>
+
+        <div class="place-row" id="ho">
+            <div class="place-img">
+                <img src="styles/bird.jpg" alt="Thangamale Bird Sanctuary">
+            </div>
+            <div class="place-text">
+                <h3>Thangamale Bird Sanctuary</h3>
+                <p>Thangamale Bird Sanctuary near Haputale is a serene haven rich in birdlife. Home to species like the
+                    Yellow-eared Bulbul, it’s perfect for nature lovers. The misty trails offer scenic views of valleys
+                    and tea estates.</p>
+            </div>
+        </div>
+
+        <div class="place-row reverse" id="ho">
+            <div class="place-img">
+                <img src="styles/idalgashinna.jpg" alt="Idalgashinna Station">
+            </div>
+            <div class="place-text">
+                <h3>Idalgashinna Railway Station</h3>
+                <p>Famed for its breathtaking views of misty mountains, this station sits at 1,615 meters. Built during
+                    the British era, it retains charming colonial features and is the starting point for the scenic
+                    Ohiya hike.</p>
+            </div>
+        </div>
+
+        <div class="place-row" id="ho">
+            <div class="place-img">
+                <img src="styles/namunukula.jpg" alt="Namunukula Range">
+            </div>
+            <div class="place-text">
+                <h3>Namunukula Mountain Range</h3>
+                <p>Rising to about 2,035 meters, it is the tallest peak in the Uva region. Meaning “Nine Peaks,” it
+                    offers stunning views of Badulla and Ella. It's a favorite hiking spot with trails through forests
+                    rich in wildlife.</p>
+            </div>
+        </div>
+
+        <div class="place-row reverse" id="ho">
+            <div class="place-img">
+                <img src="styles/tea-factory.jpg" alt="Tea Factory">
+            </div>
+            <div class="place-text">
+                <h3>Haputale Kelliebedde Tea Factory</h3>
+                <p>A must for an authentic experience of the island's iconic tea culture. This factory offers an
+                    engaging journey into the world of Ceylon tea production set against stunning natural beauty.</p>
+            </div>
+        </div>
+
+        <div class="place-row" id="ho">
+            <div class="place-img">
+                <img src="styles/Kombukara.jpg" alt="Nature Pool">
+            </div>
+            <div class="place-text">
+                <h3>Kombukara Nature Pool & Waterfall</h3>
+                <p>Located in Balleketuwa, this hidden natural gem is a serene escape into unspoiled nature. Just 12 km
+                    from Ella, it remains one of the area’s best-kept secrets.</p>
+            </div>
+        </div>
+
+        <div class="place-row reverse" id="ho">
+            <div class="place-img">
+                <img src="styles/mahamevnawa.jpg" alt="Monastery">
+            </div>
+            <div class="place-text">
+                <h3>Mahamevnawa Buddhist Monastery</h3>
+                <p>A peaceful mountain retreat for Theravada monks. It offers a serene space where visitors can
+                    experience spiritual calm amid stunning natural beauty.</p>
+            </div>
+        </div>
+
+        <div class="place-row" id="ho">
+            <div class="place-img">
+                <img src="styles/porawagala.jpg" alt="Viewpoint">
+            </div>
+            <div class="place-text">
+                <h3>Porawagala Viewpoint – Bandarawela</h3>
+                <p>Sitting about 3,700 feet above sea level, it offers breathtaking panoramic views of the surrounding
+                    hills and valleys, surrounded by lush tea plantations.</p>
+            </div>
+        </div>
+
+        <div class="place-row reverse" id="ho">
+            <div class="place-img">
+                <img src="styles/narangala.jpg" alt="Mountain">
+            </div>
+            <div class="place-text">
+                <h3>Narangala Mountain</h3>
+                <p>Standing 1,527 meters high, it is a popular spot for hikers. It offers a thrilling climb and stunning
+                    panoramic views, making it a favorite for adventurers.</p>
+            </div>
+        </div>
+
+    </div>
+
+    <footer class="footer">
+        <hr>
+        <p>Copyright @ <a href="http://www.sliate.ac.lk/">SLIATE</a> | ATI Kurunegala</p>
+        <p>Designed by Gihan Lahiru</p>
+    </footer>
+
+    <script>
+        window.onscroll = function () {
+            let topbar = document.getElementById('topbar');
+            if (window.pageYOffset > 50) {
+                topbar.style.padding = "10px";
+            } else {
+                topbar.style.padding = "20px";
+            }
+        };
+    </script>
+</body>
+
+</html>
